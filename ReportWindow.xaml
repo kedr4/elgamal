@@ -1,0 +1,16 @@
+﻿<Window x:Class="TheoryOfInformation.lab3.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="ReportWindow" MinHeight="170" MinWidth="400" Height="174" Width="686">
+    
+    <Grid>
+        <Label FontSize="12" Content="Y" HorizontalAlignment="Left" Width="50" Height="25" VerticalAlignment="Top"/>
+        <Label Margin="0,24,0,24" FontSize="12" Content="Input" HorizontalAlignment="Left" Width="50"/>
+        <Label Margin="0,48,0,48" FontSize="12" Content="Result" HorizontalAlignment="Left" Width="50"/>
+        <TextBox FontFamily="Courier New" HorizontalScrollBarVisibility="Visible" x:Name="outputText" TextWrapping="NoWrap" Margin="50,4,4,39" FontSize="16" Text="Отчёт"/>
+        <Button Click="Button_Click" Content="Ok" Margin="4,0,4,4" Height="25" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
